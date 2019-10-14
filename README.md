@@ -5,14 +5,14 @@
 
 This is a weather app I made using HTML, CSS and Javascript. You will be able to search for any city in the world and it'll display all the information you need to decide if you have to use an umbrella or not.
 
-[Feel free to check the weather!](https://weather-app-revamped.netlify.com/).
+[Feel free to check the weather!](https://weather-app-revamped.netlify.com/)
 
 ## Mission
 
-Learn how to use API.
-Learn async, await and promise.
-Create a weather app from an API.
-Use useful data from the API to display it using DOM manipulation.
+- Learn how to use API.
+- Learn async, await and promise.
+- Create a weather app from an API.
+- Use useful data from the API to display it using DOM manipulation.
 
 ## How does the app work
 
