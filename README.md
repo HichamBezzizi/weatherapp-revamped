@@ -1,7 +1,7 @@
 # Weather App
 
-![startscreen]("./assets/img/weatherapp.png")
-![antwerpen]("./assets/img/weatherappantwerpen.png")
+![Starting screen](./assets/img/weatherapp.png)
+![Search: Antwerpen](./assets/img/weatherappantwerpen.png)
 
 This is a weather app I made using HTML, CSS and Javascript. You will be able to search for any city in the world and it'll display all the information you need to decide if you have to use an umbrella or not.
 
