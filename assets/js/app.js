@@ -40,9 +40,9 @@ const weatherDetails = async (data) => {
         const weatherIcon = weatherList[d].weather[0].icon;
 
         cardContent[i].innerHTML = `<div class="forecast">${weatherList[d].weather[0].description}</div>
-                                    <div class="icon"><img src='/assets/img/${weatherIcon}.png'></div>
-                                    <div class="temp"><img src='./assets/img/humidity.svg'>${weatherList[d].main.temp}°C</div>
-                                    <div class="humidityIcon"><img src='./assets/img/thermometer.svg'>${weatherList[d].main.humidity}%</div>`
+                                    <div class="icon"><img src='/assets/img/${weatherIcon}.svg'></div>
+                                    <div class="temp">${Math.round(weatherList[d].main.temp)} °C</div>
+                                    <div class="humidityIcon">${weatherList[d].main.humidity} %</div>`
     };
 
 };

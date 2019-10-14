@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <title>Weather App</title>
@@ -17,13 +18,13 @@
 
         <div class="container">
             <header>
-                <h1 class="weerTitle center">5-day Forecast</h1>
+                <h1 class="weerTitle center">Weather App</h1>
             </header>
 
             <form class="locatie">
                 <label id="searchLabel" for="stad">Enter your city here...</label>
                 <input type="text" name="stad">
-                <a class="waves-effect waves-light btn orange" id="searchButton">Search</a>
+                <a class="waves-effect waves-light btn #90caf9 blue lighten-3" id="searchButton">Search</a>
             </form>
         </div>
 
@@ -33,7 +34,7 @@
 
 
             <div class="row">
-                <div class="col m2">
+                <div class="weather-card col m2">
                     <div class="card">
                         <div>
                             <h5 class="center-align day">Monday</h5>
@@ -44,15 +45,13 @@
                                 <img class="icon"><img src="" alt="">
                             </div>
                             <div class="temp"></div>
-                            <div class="tempMin"></div>
-                            <div class="tempMax"></div>
                             <div class="humidity"></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col m2">
+                    <div class="weather-card col m2">
                         <div class="card">
                             <div>
                                 <h5 class="center-align day">Tuesday</h5>
@@ -62,15 +61,13 @@
                                     <img src="" alt="">
                                 </div>
                                 <div class="temp"></div>
-                                <div class="tempMin"></div>
-                                <div class="tempMax"></div>
                                 <div class="humidity"></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col m2">
+                        <div class="weather-card col m2">
                             <div class="card">
                                 <div>
                                     <h5 class="center-align day">Wednesday</h5>
@@ -80,8 +77,6 @@
                                         <img src="" alt="">
                                     </div>
                                     <div class="temp"></div>
-                                    <div class="tempMin"></div>
-                                    <div class="tempMax"></div>
                                     <div class="humidity">
                                     </div>
                                 </div>
@@ -89,7 +84,7 @@
                         </div>
 
                         <div class="row">
-                            <div class="col m2">
+                            <div class="weather-card col m2">
                                 <div class="card">
                                     <div>
                                         <h5 class="center-align day">Thursday</h5>
@@ -99,15 +94,13 @@
                                             <img src="" alt="">
                                         </div>
                                         <div class="temp"></div>
-                                        <div class="tempMin"></div>
-                                        <div class="tempMax"></div>
                                         <div class="humidity"></div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="col m2">
+                                <div class="weather-card col m2">
                                     <div class="card">
                                         <div>
                                             <h5 class="center-align day">Friday</h5>
@@ -117,8 +110,6 @@
                                                 <img src="" alt="">
                                             </div>
                                             <div class="temp"></div>
-                                            <div class="tempMin"></div>
-                                            <div class="tempMax"></div>
                                             <div class="humidity"></div>
                                         </div>
                                     </div>
