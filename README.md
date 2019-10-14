@@ -26,6 +26,7 @@ This is a weather app I made using HTML, CSS and Javascript. You will be able to
 ## What did I learn from this
 
 1. Improved my Javascript and write cleaner code.
+1. Separating my API and my DOM javascript logic.
 1. Working with an API.
 1. Fetch API  from https://openweathermap.org/api .
 1. Concept of async and await.
@@ -33,6 +34,5 @@ This is a weather app I made using HTML, CSS and Javascript. You will be able to
 ## What was the most challenging
 
 Figuring out how to get the data of the day since the API is configured to have data every 3 hours.
-
 
 
