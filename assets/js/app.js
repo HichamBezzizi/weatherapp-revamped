@@ -12,7 +12,7 @@ const weatherDetails = async (data) => {
     const weatherList = data.list;
     const weatherOutput = weatherList[0].weather[0].icon;
 
-    //Conditional statement that changes the background based on the weather.
+    //Conditional statement that changes the background based on the weather codes in the API.
     switch (weatherOutput) {
         case '01d': case '02d': case '01n': case '02n':
             weatherBackground.style.background = 'url(assets/img/nice-weather.jpg)';
@@ -44,7 +44,6 @@ const weatherDetails = async (data) => {
                                     <div class="temp">${Math.round(weatherList[d].main.temp)} °C</div>
                                     <div class="humidityIcon">${weatherList[d].main.humidity} %</div>`
     };
-
 };
 
 const callback = () => {
