@@ -47,12 +47,7 @@ const weatherDetails = async (data) => {
 
 };
 
-
-//Event listeners
-form.addEventListener('submit', (e) => {
-
-    e.preventDefault();
-
+const callback = () => {
     // variable that stores the input
     const input = form.stad.value.trim();
     form.reset();
@@ -61,22 +56,17 @@ form.addEventListener('submit', (e) => {
     fetchCity(input)
         .then(data => weatherDetails(data))
         .catch(err => console.log(err));
+}
 
+//Event listeners
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    callback();
 });
 
 btn.addEventListener('click', (e) => {
-
     e.preventDefault();
-
-    // variable that stores the input
-    const input = form.stad.value.trim();
-    form.reset();
-
-    //function call that takes the input of a city and fetches the data of the weather and passes it)
-    fetchCity(input)
-        .then(data => weatherDetails(data))
-        .catch(err => console.log(err));
-
+    callback();
 });
 
 
